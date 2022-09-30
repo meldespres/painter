@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecards</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c606c59c59.js" crossorigin="anonymous"></script>
+    <script type="module"src="js/index.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"></script> -->
+<body>
+    <header>
+        <h1>Dessiner avec une souris</h1>
+    </header>
+    <main>
+        <canvas id="my-canvas" width="600" height="450"></canvas>
+        <div class="draw">
+            Outils Dessin
+            <ul class="tools">
+                <button class="changeColor"><i class="fa-solid fa-eye-dropper"></i></button>
+                <button class="erase"><i class="fa-solid fa-eraser"></i></button>
+            </ul>
+            Couleurs
+            <ul class="colors">
+                <li><div data-color="black" class="black color"></div></li>
+                <li><div data-color="brown" class="brown color"></div></li>
+                <li><div data-color="red" class="red color"></div></li>
+                <li><div data-color="yellow" class="yellow color"></div></li>
+                <li><div data-color="green" class="green color"></div></li>
+                <li><div data-color="purple"class="purple color"></div></li>
+                <li><div data-color="blue" class="blue color"></div></li>
+                <li><div class="selected"></div></li>
+            </ul>
+
+            Epaisseur
+            <ul class="thickness">
+                <button class="Fin">Fin</button>
+                <button class="Moyen">Moyen</button>
+                <button class="Epais">Epais</button>
+            </ul>
+
+            <button class="send">Envoyer par email</button>
+                
+            </ul>
+
+        </div>
+    
+    </main>
+</body>
+</html>
